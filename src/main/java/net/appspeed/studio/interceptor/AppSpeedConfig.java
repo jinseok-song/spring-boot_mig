@@ -12,9 +12,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class AppSpeedConfig implements WebMvcConfigurer {
     public static Logger logger = LogManager.getLogger(AppSpeedConfig.class);
 
-    @Autowired
-    StudioInterceptor std;
-
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
@@ -29,7 +26,7 @@ public class AppSpeedConfig implements WebMvcConfigurer {
         logger.debug("======================net.appspeed.studio.interceptor====================");
         logger.debug("======================net.appspeed.studio.interceptor====================");
 
-        registry.addInterceptor(std).addPathPatterns("/**");
+        registry.addInterceptor(new StudioInterceptor()).addPathPatterns("/**");
 
         logger.debug("======================interceptor2====================");
         logger.debug("======================interceptor2====================");
