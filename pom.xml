@@ -92,11 +92,6 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.6.11</version>
         </dependency>
-        <dependency>
-            <groupId>net.appspeed</groupId>
-            <artifactId>net.appspped</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
     </dependencies>
 
