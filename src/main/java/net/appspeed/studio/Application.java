@@ -12,8 +12,8 @@ import org.slf4j.LoggerFactory;
 
 
 
-@SpringBootApplication
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+
 public class Application {
 	public static final Logger logger = LoggerFactory.getLogger(Application.class);
 	

@@ -16,4 +16,7 @@ server.port=8088
 #spring.datasource.hikari.password=sm1418!1662
 #spring.datasource.hikari.pool-name=TestHikariPool
 
-#########
+#spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=데이터베이스이름
+#spring.datasource.username=사용자이름
+#spring.datasource.password=비밀번호

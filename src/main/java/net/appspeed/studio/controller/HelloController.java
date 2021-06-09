@@ -22,9 +22,9 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public Map<String, Object> index() {
-		logger.debug("==================================================");
-		logger.debug("Controller");
-		logger.debug("==================================================");
+		logger.info("==================================================");
+		logger.info("Controller");
+		logger.info("==================================================");
 
 		return hh.index();
 		
