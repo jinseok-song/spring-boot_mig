@@ -35,9 +35,9 @@ public class hello {
 
 
 
-    public Map<String, Object> index() {
+    public Map<String, Object> index() throws Exception {
 
-        @SuppressWarnings("rawtypes")
+
         Map<String, Object> tokenData = new HashMap();//<String, Object>();
         tokenData.put("naver", naver);
         tokenData.put("google", google);

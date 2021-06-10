@@ -1,4 +1,5 @@
 spring:
+  maria:
     datasource:
       hikari:
         platform: mariadb
@@ -8,6 +9,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         connectionTimeout : 30000
         auto-commit: false
+
 
 
 ---
