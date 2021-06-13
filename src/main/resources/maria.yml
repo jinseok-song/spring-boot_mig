@@ -1,0 +1,37 @@
+#spring:
+#  profiles:
+#    active:
+#      on-profile: maria
+#  datasource:
+#    hikari:
+#      platform: mariadb
+#      username: sa
+#      password: sm1418!1662
+#      jdbc-url: jdbc:mysql://169.56.72.66:3306/studio?zeroDateTimeBehavior=convertToNull
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      connectionTimeout : 30000
+#      auto-commit: false
+#---
+#
+#site-url:
+#  naver : https://www.naver.com
+#  google : https://google.com
+#  test : testiiii
+#
+#---
+#jwt:
+#  encode:
+#    key: apspeedsmjj1418**00
+#---
+#redis:
+#  host: localhost
+#  port: 6379
+#
+##spring:
+##  dbname: maria
+##    datasource:
+##      hikari:
+##        maximum-pool-size : 4
+##        url : jdbc:postgresql://169.56.72.66:5438/postgres
+##        username : sa
+##        password : sm1418!1662
